@@ -1,0 +1,35 @@
+<!--  
+	Author Details
+	==============
+	Author: Ranjith Pandi
+
+	Author URL: http://ranjithpandi.com
+
+	Attribution is must on every page, where this work is used.
+
+	For Attribution removal request. please consider contacting us through http://ranjithpandi.com/#contact
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Match</title>
+<link rel="stylesheet" href="styles/match.css">
+</head>
+<body>
+<div id="match"></div>
+<div class="result">
+	<div class="output">
+		<div class="won">You Won !!!!</div>
+		<div class="clicks">Total Clicks : <span id="totalClick"></span></div>
+		<div class="clicks">Best Clicks : <span id="bestClick"></span></div>
+		<div class="replay">Try Again</div>
+	</div>
+</div>
+<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="javascript/match.js"></script>
+<script>
+$("match").playGame();
+</script>
+</body>
+</html>
